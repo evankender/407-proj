@@ -1,9 +1,21 @@
 name:
-    css: '#productTitle'
+    css: h1.a-size-large
+    xpath: null
+    type: Text
+brand:
+    css: 'tr.a-spacing-small:nth-of-type(3) td.a-span9 span.a-size-base'
+    xpath: null
     type: Text
 price:
-    css: '#price_inside_buybox'
+    css: 'td.a-span12 span.a-size-medium'
+    xpath: null
     type: Text
 rating:
-    css: span.arp-rating-out-of-text
+    css: 'div.a-row span.a-size-base span.a-size-medium'
+    xpath: null
+    type: Text
+model_num:
+    css: 'div.a-expander-content tr:nth-of-type(2) td.a-size-base'
+    xpath: null
+    multiple: true
     type: Text
