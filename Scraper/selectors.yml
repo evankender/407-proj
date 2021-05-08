@@ -1,0 +1,9 @@
+name:
+    css: '#productTitle'
+    type: Text
+price:
+    css: '#price_inside_buybox'
+    type: Text
+rating:
+    css: span.arp-rating-out-of-text
+    type: Text
